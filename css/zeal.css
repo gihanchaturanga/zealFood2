@@ -1,0 +1,1103 @@
+.nav-section{
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+}
+.nav-brand-img{
+  width: 460px;
+  position: relative;
+  top: 50px;
+}
+img {
+  max-width: 100%;
+}
+.nav-menu ul li a{
+  color: #ffff;
+  font-size: 20px;
+  font-weight:  600;
+  margin-right: 20px;
+  border: none;
+}
+.nav-menu ul li a::after{
+  content: "";
+  width: 0%;
+  height: 3px;
+  background: #DF0915;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.5s;
+}
+.navbar-brand{
+  font-size: 30px;
+  font-weight: bolder;
+}
+.nav-link:hover{
+  color: #F8A22F;
+}
+.nav-menu ul li a:hover::after{
+  width: 100%;
+}
+.nav-menu ul{
+  align-items: center;
+}
+.nav-btn{
+  color: #ffff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 56px;
+  border-radius: 25px;
+  margin-top: 35px;
+  background-color: #DF0915;
+  border: 0;
+  font-weight: normal;
+  margin-top: 23px !important;
+  display: inline-block;
+}
+.cart{
+  max-width: 50px;
+  max-height: 50px;
+  margin-left: 20px;
+}
+.cart img{
+  width: 50px;
+  height: 50px;
+  max-width: 50px;
+}
+
+
+.cart p{
+  font-size: 25px;
+  font-weight: 800;
+  color: #ffff;
+  position: relative;
+  bottom: 34px;
+  left: 35px;
+}
+ h2.titleHeading{
+  font-size: 50px;
+}
+hr.titleHr{
+  width: 200px;
+  opacity: 1;
+  border-bottom: 5px solid #DF0915;
+  border-color: #DF0915;
+  margin-bottom: 50px;
+  display: inline-block;
+  border-radius: 3%;
+}
+.sm-nav-btn{
+  background-color: transparent;
+}
+.sm-nav-icon{
+ font-size: 40px;
+ font-weight: bold;
+ color: #F8A22F;
+}
+.sm-device-logo{
+  max-width: 250px;
+  max-height: 250px;
+}
+.sm-device-logo img{
+  width: 100%;
+  max-height: 250px;
+
+  /* position: relative; */
+  /* top: -400px; */
+}
+/*_____________end of nav bar____________________*/
+.row{
+  padding-right: 0 !important;
+  padding-left: 0;
+}
+.home-cover-img img{
+  width: 100%;
+}
+.home-left{
+  margin-top: 300px;
+}
+.home-order-btn button{
+  /* width: 100%; */
+  margin-top: 70px;
+  padding: 16px 49px;
+  line-height: 16px;
+  font-size: 15px;
+  /* position: relative; */
+  width: 200px;
+}
+.home-left  h2 {
+  font-size: 3.5rem;
+  font-weight: normal;
+}
+
+.home-left p {
+  font-size: 1.3em;
+  color: #999;
+}
+/*_______________________________end of home section________________________________*/
+.our-products-ul{
+  width: 100px;
+  border-bottom: 3px solid #DF0915;
+  margin-left: auto;
+  margin-right: auto;
+}
+#home-products{
+    background-image: url(../assets/slider-back.svg);
+  background-size: cover;
+  background-position: center;
+}
+.slider{
+
+  max-width: 80%;
+}
+.recipes{
+  margin-top: 150px;
+  padding: 20px;
+}
+
+.plus-icon .fas{
+  width: 40px;
+  height: 40px;
+  background-color: #DF0915;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  /* background-color: #ffff; */
+  color: #ffff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.recipes-details {
+  max-width: 433px;
+}
+/*____________________________end of recipes____________________________________*/
+.contact-form{
+  /* max-height: 425px; */
+  padding: 50px;
+  background-color: #DF0915;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  z-index: 4;
+  background-image: url("../assets/Images/1.Home/2.Products/Background.png");
+}
+#contact-us .form-control {
+  font-size: 1.2rem;
+  line-height: 41px;
+  padding-left: 30px;
+  margin-top: 10px;
+}
+.contact-btn{
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.contact-btn button{
+  background-color: #ffff;
+  border: none;
+  padding: 15px 63px;
+  color: #F8A22F;
+  font-size: 24px;
+}
+/*____________________________end of contact us________________________________*/
+.footer{
+  margin-top: 50px;
+  text-align: left;
+  background-image: url(../assets/Images/1.Home/5.BottomNavigation/bottom-image.svg);
+  background-position: center;
+  background-color: #000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 50px;
+  padding-top: 0;
+}
+.footer {
+  text-align: left !important;
+}
+.footer h3{
+  font-size: 25px;
+  color: #fff;
+}
+.footer p{
+  font-size: 18px;
+  color: #fff;
+}
+.footer ul{
+  padding: 0 0;
+}
+.footer ul li{
+  list-style: none;
+}
+.footer ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 41px;
+}
+
+.social-icon i{
+  width: 40px;
+  height: 40px;
+  background-color: #ffff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  color: #F8A22F;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 5px;
+}
+.footer-img-left{
+  /* padding-left: 50px; */
+  /* background-image: url(../assets/Images/1.Home/5.BottomNavigation/paper.png); */
+  background-position: 150px 0px;
+  background-size: 215px;
+  background-repeat: no-repeat;
+}
+.footer-img-left img{
+  border: none;
+  background: transparent;
+  z-index: 1;
+  position: relative;
+  top: -125px;
+  background-image: url(../assets/Images/1.Home/5.BottomNavigation/paper.png);
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: bottom left;
+}
+
+@media (min-width: 1400px) {
+
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      max-width: 1600px;
+  }
+}
+
+/* --------------------------------------------recepie */
+#recepieHeader  {
+  background-image: url('../assets/Images/3.Recepie/cover.png');
+  min-height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#recepieHeader .navbar-brand img {
+  width: 350px;
+  background-image: url("../assets/Images/3.Recepie/paper.png");
+  background-repeat: no-repeat;
+  padding: 50px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  background-size: 80%;
+  background-position: center center;
+}
+
+#recepieHeader  .nav-section {
+  z-index: 9999;
+  width: 100%;
+  position: relative;
+  top: 0px;
+}
+.red-round {
+  background: #e2222d;
+  border-radius: 46px;
+  height: 50px;
+  width: 50px;
+  color: #fff;
+}
+#recepieHeader .navbar-brand , .navbar-light .navbar-brand{
+  color: rgb(223 9 21);
+  text-transform: uppercase;
+  font-size: 45px;
+}
+#recepie_list .nav-link {
+  background: 0 0;
+  border: 0;
+  border-radius: 0.25rem;
+  background: #F4F9FF;
+  margin: 5px;
+  border-radius: 15px;
+  color: #2E4765;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+#recepie_list .nav-link img {
+  margin-right: 10px;
+  width: 30px;
+}
+.itemContainer
+{
+
+background: #F8DDDD;
+
+/* background-image: url("../assets/Images/3.Recepie/background.png"); */
+
+border-radius: 50% 50% 50px 50px;
+
+max-width: 359px;
+
+height: 517px;
+
+margin-top: 100px;
+
+text-align: left;
+
+padding: 0 30px;
+
+margin-right: auto;
+
+margin-left: auto;
+
+box-shadow: 20px 20px 40px 16px #cbb4b4;
+}
+.mainImg {
+  margin-top: -70px;
+  display: inline-block;
+  max-width: 300px;
+  border-radius: 50%;
+  margin-right: auto;
+  /* margin-left: -10px; */
+}
+.itemContainer img.iconImg
+{
+  margin-top: -100px;
+  margin-left: -15px;
+  background: #DF0915;
+  border-radius: 50%;
+  padding: 8px 6px;
+  width: 50px;
+}
+.itemContainer h3 {
+  font-weight: bold;
+}
+.itemContainer .details{
+  display: flex;
+  justify-content: space-between;
+}
+.timeDetails{
+  text-align: center;
+}
+.details p {
+  color: #2E4765;
+  font-size: 19px;
+}
+.timeDetails span {
+  color: #EE6A6E;
+  font-weight: bold;
+  font-size: 25px;
+}
+.arrow-link {
+  color: #fff;
+  background: #000;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  position: relative;
+  text-decoration: none;
+  float: right;
+  margin-right: -50px;
+  font-size: 30px;
+}
+#shorting .form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2.5;
+  color: #212529;
+  background-color: #f4f9ff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.9rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  width: 550px;
+}
+/*-------------------------------------------- recepie */
+
+/*______________________________products page____________________________________*/
+#products{
+    padding-top: 250px;
+    background-color: #f5ebea;
+    padding-bottom: 150px;
+}
+#products h2 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+#products h3 {
+    font-size: 3rem;
+}
+#products p{
+  font-size: 20px;
+  margin-bottom: 5px;
+  /* height: 50px; */
+}
+#products .home-cover-img {
+  text-align: right;
+  padding-right: 0;
+}
+#products .home-cover-img img {
+  max-width: 842px;
+}
+#orderNav {
+  background-image: linear-gradient( 
+    180deg, black, #d8cfce);
+}
+#orderNav .nav-brand-img {
+  margin-bottom: -130px;
+  top: 0;
+}
+.add-to-cart{
+  text-align: left;
+}
+.add-to-cart-btn button{
+  margin-top: 0px;
+  padding: 15px 36px;
+  line-height: 16px;
+  font-size: 15px;
+  /* position: relative; */
+}
+
+/*____________________________________more products______________________________*/
+.card-container{
+  border: 1px solid #242424;
+  border-radius: 25px;
+  padding-top: 20px;
+  text-align: center;
+  margin-top: -100px;
+  background: #fff;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.order-arrow-icon a {
+  
+color: #fff;
+  
+background: #000;
+  
+width: 60px;
+  
+height: 60px;
+  
+display: flex;
+  
+justify-content: center;
+  
+align-items: center;
+  
+border-radius: 50px;
+  
+position: relative;
+  
+text-decoration: none;
+  
+float: right;
+  
+font-size: 26px;
+  
+font-weight: lighter;
+}
+#more-products .card {
+  margin-top: 50px ;
+}
+#more-products h2 {
+  font-weight: bold;
+}
+@media (min-width: 700px){
+  .product-left{
+    margin-top: 100px;
+    padding-left: 150px;
+  }
+}
+/*___________________________________________________________ modals_________________________________________________*/
+.modal-plus-icon .fas{
+  width: 20px;
+  height: 20px;
+  background-color: #DF0915;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  /* background-color: #ffff; */
+  color: #ffff;
+  font-size: 10px;
+  margin-right: 3px;
+}
+.modal-3rd-col{
+  background-color: #cccc;
+  padding: 8px 0px;
+  border-radius: 8px;
+}
+.modal-3rd-col p{
+  color: #000;
+}
+.modal-close-btn{
+  width: 45px;
+  height: 45px;
+  background-color: black;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  color: #ffff;
+  font-size: 25px;
+}
+
+
+/*_________________________________cart page________________________________*/
+.cart-heading{
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+.cart-heading h2{
+  color: #DF0915;
+  padding-bottom: 30px;
+}
+
+.cart-left-arrow-icon a{
+  color: #242424;
+  font-size: 20px;
+  padding-right:15px;
+}
+.cart-left-arrow-icon h3 a{
+  font-size: 20px;
+  color: #748A9D;
+  text-decoration: none;
+}
+/*_____________________________________cart page_____________________________________*/
+  /* background-image: linear-gradient(220deg, #748A9D, #A6BCD0); */
+.check-out-row{
+  width: 100%;
+  height: 100px;
+  border-radius: 10px;
+  background-image: linear-gradient(220deg, #c3d3e0, #f0f4f8);
+  margin: 0;
+  padding: 0;
+  max-width: 1200px;
+  margin-left: auto;
+}
+.check-out-row-img{
+  max-height: 100px;
+  /* display: flex;
+  align-items: center; */
+}
+.check-out-row-img img{
+  width: 100%;
+  max-height: 200px;
+}
+.cart-form input{
+  background-color: #c3d3e0;
+  height: 50px;
+  color: #68717A ;
+}
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #68717A ;
+  opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #68717A ;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+  color: #68717A ;
+}
+.cart-form ::-webkit-input-placeholder{
+  color: #68717A ;
+}
+.cart-form button .fas{
+  font-size: 15px;
+}
+.plus-icon-cart .fas{
+  width: 55px;
+  height: 55px;
+  background-color: #242424;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 55px;
+  color: #ffff;
+  font-size: 30px;
+  /* margin-right: 15px; */
+}
+
+#home-products {
+  padding-top: 50px;
+  /* background-color: #f5ebea; */
+  padding-bottom: 16px;
+}
+/* slider */
+.slider {
+}
+
+.slick-slide {
+margin: 0px 20px;
+}
+
+.slick-slide img {
+width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+color: black;
+}
+
+
+.slick-slide {
+transition: all ease-in-out .3s;
+opacity: .2;
+}
+
+.slick-active {
+opacity: 1;
+}
+
+.slick-current {
+opacity: 1;
+}
+.slick-prev:before, .slick-next:before {
+  font-size: 60px;
+}
+.slick-prev {
+  left: -60px;
+}
+/* slider */
+#recipeCarousel  .card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background: none;
+  background-clip: border-box;
+  border: 0;
+  border-radius: 0.25rem;
+  justify-content: center;
+}
+.cardbodyText {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+/* home responsive */
+.arrowImg {
+  margin-top: 30px;
+}
+.copyDiv{
+  color: #fff;
+  font-size: 22px;
+  border-top: 2px solid;
+  padding: 10px;
+  margin-top: 20px;
+}
+@media (max-width:1530px) {
+  #contact-us .form-control {
+    font-size: 1.2rem;
+    line-height: 30px;
+    padding-left: 30px;
+    margin-top: 0;
+  }
+  .add-to-cart-btn button {
+    margin-top: 0px;
+    padding: 9px 15px;
+    line-height: 16px;
+    font-size: 15px;
+    /* position: relative; */
+  }
+  .footer-img-left img {
+    background-size: 80%;
+  }
+  .footer-img-left img {
+    top: -125px;
+    background-size: 209px;
+  }
+.social-icon i{
+  width: 35px;
+  height: 34px;
+  background-color: #ffff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 34px;
+  color: #F8A22F;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 5px;
+}
+}
+@media (max-width:1400px) {
+  .contact-form {
+    /* max-height: 425px; */
+    padding: 19px;
+    background-color: #DF0915;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    z-index: 4;
+    background-image: url(../assets/Images/1.Home/2.Products/Background.png);
+}
+  
+}
+@media (max-width: 1200px) { 
+
+.nav-menu ul li a {
+  margin-right: 0;
+}
+.cart {
+  display: none;
+}
+.nav-menu ul {
+  align-items: center;
+  width: 100%;
+}
+.navbar-collapse .nav-btn {
+  width: 190px;
+  margin-top: 35px;
+  background: no-repeat;
+  padding: 0;
+  margin: 0;
+}
+  .plus-icon-cart .fas {
+    width: 30px;
+    height: 30px;
+    background-color: #242424;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: #ffff;
+    font-size: 13px;
+    /* margin-right: 15px; */
+  }
+  .nav-btn{
+    width: 190px;
+    padding: 10px 5px;
+    margin-top: 35px;
+  }
+  .home-left h2 {
+    font-size: 2.2rem;
+  }
+  .home-left p {
+    font-size: 1em;
+  }
+  .home-left {
+    margin-top: 210px;
+  }
+
+  .contact-form {
+    padding: 15px;
+}
+  #contact-us .form-control {
+    font-size: 1rem;
+    line-height: 25px;
+    padding-left: 15px;
+    margin-top: 0;
+  }
+  .contact-btn {
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .contact-btn button {
+    background-color: #ffff;
+    border: none;
+    padding: 10px 35px;
+    color: #F8A22F;
+    font-size: 20px;
+    margin: 0;
+  }
+  .footer-img-left img {
+    top: -99px;
+    background-size: 75%;
+  }
+  .social-icon i {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 12px;
+    margin: 5px;
+  }
+  .mainImg {
+    max-width: 250px;
+}
+#shorting .navbar-toggler {
+  display: none;
+}
+}
+
+@media (max-width: 990px) {
+  .navbar-collapse {
+    background: #ccc;
+    padding: 50px 20px;
+    margin-top: 15px;
+}
+  .cart-form form {
+    padding: 20px;;
+  }
+  #recepieHeader .navbar-brand img {
+    display: none;
+  }
+  .sm-device-logo img {
+    width: 100%;
+    max-height: 250px;
+    /* position: relative; */
+    /* top: -400px; */
+
+    
+    background-image: url(../assets/Images/3.Recepie/paper.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center center;
+}
+
+  .mainImg {
+    max-width: 300px;
+}
+  #shorting .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2.5;
+    color: #212529;
+    background-color: #f4f9ff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.9rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    width: 300px;
+}
+#shorting .navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  header .navbar-collapse {
+    background: #ccc;
+    padding: 50px 20px;
+    margin-top: 15px;
+}
+  #orderNav {
+    background: none;
+}
+#products {
+  margin-top: -226px;
+}
+  .home-left {
+    margin-top: 10px;
+    padding-left: 20px !important;
+  }
+  .home-left {
+    margin-top: 10px;
+  }
+    .home-left h2 {
+      font-size: 1.6rem;
+    }
+    .home-left p {
+      font-size: .8em;
+    }
+    .home-order-btn button {
+      /* width: 100%; */
+      margin-top: 70px;
+      padding: 16px 29px;
+      line-height: 16px;
+      font-size: 15px;
+      /* position: relative; */
+      width: 160px;
+  }
+  .footer p {
+    font-size: 14px;
+    color: #fff;
+  }
+  .footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.social-icon i {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 21px;
+  font-size: 13px;
+  margin: 1px;
+}
+.footer h3 {
+  font-size: 22px;
+  color: #fff;
+}
+#products .home-cover-img img {
+  display: none;
+}
+.add-to-cart-btn button {
+  margin-top: 0px;
+  padding: 15px 25px;
+  line-height: 16px;
+  font-size: 15px;
+  /* position: relative; */
+}
+.arrowImg {
+  margin-top: 28px;
+}
+}
+@media (max-width:770px) {
+  
+  .home-left h2 {
+    font-size: 2.6rem;
+}
+.home-left p {
+  font-size: 1.2em;
+}
+.home-order-btn button {
+
+  margin: 0 auto;
+  display: block;
+  text-decoration: none;
+}
+.home-cover-img img {
+  width: 100%;
+  display: none;
+}
+.contact-form {
+  /* max-height: 425px; */
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+.footer h3 {
+  font-size: 32px;
+  color: #fff;
+  line-height: 30px;
+}
+.social-icon i {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 42px;
+  font-size: 18px;
+  margin: 6px;
+}
+
+
+.plus-icon-cart .fas {
+  width: 25px;
+  height: 25px;
+  background-color: #242424;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 25px;
+  color: #ffff;
+  font-size: 11px;
+  /* margin-right: 15px; */
+}
+
+.cartlogo, .cartcover {
+  display: none;
+}
+.arrowImg  {
+  display: none;
+}
+.add-to-cart-btn button {
+  margin-top: 0px;
+  padding: 10px 29px;
+  line-height: 16px;
+  font-size: 15px;
+  /* position: relative; */
+}
+#products {
+  padding-top: 250px;
+  background-color: #f5ebea;
+  padding-bottom: 150px;
+} 
+
+.order-arrow-icon a {
+  color: #fff;
+  background: #000;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  position: relative;
+  text-decoration: none;
+  float: right;
+  font-size: 13px;
+  font-weight: lighter;
+}
+h5 {
+  line-height: 10px;
+}
+.card-text {
+  line-height: 20px;
+}
+.round-cornar {
+  border-radius: 30px;
+}
+.slick-prev {
+  left: -31px;
+}
+.slick-next {
+  right: 10px;
+}
+
+#shorting .form-control {
+  width: 250px;
+}
+#shorting .navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.arrow-link {
+  color: #fff;
+  background: #000;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  position: relative;
+  text-decoration: none;
+  float: right;
+  margin-right: -31px;
+  font-size: 30px;
+}
+.check-out-row  .align-middle {
+  padding: 0;
+}
+.check-out-row-img img {
+  width: 100%;
+  max-height: 200px;
+  margin-left: 20px;
+}
+}
+/* home responsive */
